@@ -17,9 +17,7 @@ anwser =input('Guess how much points Kobe Bryant has scored in total for LA Lake
 anwser_difference = points - int(anwser)
 anwser_difference == 0
 print(anwser_difference == 0)
-i = 0
-
-   i += 1
+i = 0   i += 1
 if anwser_difference == 0:
     print(f"You are correct! Kobe bryant scored a total of {actual_points}points between 1996 and 2016.")
     break
